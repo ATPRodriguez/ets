@@ -10,7 +10,7 @@
 | Relaciones | Programar citas médicas (Recepcionista) |
 | Referencias | C.U1, C.U2 |   
 |  Notas |   |
-| Autor  | ies.puerto |
+| Autor  |  |
 |Fecha | 15/11/2023 |
 | | |
 
@@ -21,7 +21,7 @@
 | Relaciones | Acceder historial médico del paciente (Enfermero), Actualiza historial médico del paciente (Enfermero) |
 | Referencias | C.4, C.5, C.6, C.7, C.8, C.9 |   
 |  Notas |   |
-| Autor  | ies.puerto |
+| Autor  |  |
 |Fecha | 15/11/2023 |
 | | |
 
