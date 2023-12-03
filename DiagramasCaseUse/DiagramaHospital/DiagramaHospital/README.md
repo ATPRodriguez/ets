@@ -49,7 +49,7 @@ Realiza un diagrama de clases y añade los métodos necesarios para realizar el 
 | Nombre | Descripción | Tipo |
 | | | |
 
-## Casos de Uso <a name = "Casos de Uso"></a>
+## Casos de Uso <a name = "CasosUso"></a>
 <img src = "img/CasosUso.png">
 
 | Caso de Uso | C.U.1: Hacer préstamo |
