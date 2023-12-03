@@ -10,7 +10,9 @@ Realiza un diagrama de clases y añade los métodos necesarios para realizar el 
 
 ## Índice
 - [Actores](#Actores)
-- 
+- [Casos de Uso](#CasosUso)
+- [Diagrama Casos de Uso](#Diagrama)
+- [Diagrama de Clases](#Clases)
 
 
 ## Actores <a name = "Actores"></a>
@@ -47,7 +49,7 @@ Realiza un diagrama de clases y añade los métodos necesarios para realizar el 
 | Nombre | Descripción | Tipo |
 | | | |
 
-## Casos de Uso
+## Casos de Uso <a name = "Casos de Uso"></a>
 <img src = "img/CasosUso.png">
 
 | Caso de Uso | C.U.1: Hacer préstamo |
@@ -115,10 +117,10 @@ Realiza un diagrama de clases y añade los métodos necesarios para realizar el 
 | Autor | Alejandro Tomás Pacheco Rodríguez |
 | Fecha | 03/12/2023 |
 
-## Diagrama Caso Uso
+## Diagrama Caso Uso <a name = "Diagrama"></a>
 <img src = "img/DiagramaCasoUso.png">
 
-## Diagrama de Clases
+## Diagrama de Clases <a name = "Clases"></a>
 <img src = "img/DiagramaClases.png">
 
 </div>
