@@ -16,7 +16,7 @@ Realiza un diagrama de clases y añade los métodos necesarios para realizar el 
 
 
 ## Actores <a name = "Actores"></a>
-<img src=img/actores.PNG>
+<img src=img/Actores.PNG>
 
 | Actor | Bibliotecario |
 | --- | --- |
