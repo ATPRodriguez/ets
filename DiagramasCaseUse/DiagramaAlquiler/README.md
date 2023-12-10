@@ -13,6 +13,6 @@ Se desea diseñar un diagrama de clases sobre la información de las reservas de
 
 ## Diagrama de Clases
 
-<img src= "DiagramaAlquiler.png">
+<img src= "img/DiagramaAlquiler.png">
 
 </div>
