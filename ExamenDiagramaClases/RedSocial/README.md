@@ -25,24 +25,56 @@ Se pide:
 ## Pseudocodigo <a name = "pseudocodigo"></a>
 
 ### Clase Publicacion
-
 ```java
-public class publicacion {
-    private String contenido;
-    private Date fechaPublicacion;
-    private int cantidadMeGusta;
-    private Usuario autorPublicacion;
-    private String[] comentarios;
+public class Publicacion {
+    private String contenido = "";
+    private Date fechaPublicacion = new Date;
+    private int cantidadMeGusta = 0;
+    private Usuario autorPublicacion = new Usuario();
+    private String[] comentarios = new String[];
 
-    public publicacion () {}
-    public publicacion (String contenido, Usuario autorPublicacion) {
+    public Publicacion () {}
+    public Publicacion (String contenido, Usuario autorPublicacion) {
       this.contenido = contenido;
-      Date fechaActual = new Date;
-      this.fechaPublicacion = fechaActual;
       this.autorPublicacion = autorPublicacion;
     }
+}
+    /**
+     * Setters/Getters
+     */
+```
 
-    
+### Clase Usuario
+```java
+public class Usuario{
+    private String nombreDeUsuario = "";
+    private String correoElectronico = "";
+    private Usuario[] listaAmigos = new Usuario[];
+    private boolean seguido = false;
+
+    public Usuario () {}
+    public Usuario (String nombreDeUsuario, String correoElectronico) {
+        this.nombreDeUsuario = nombreDeUsuario;
+        this.correoElectronico = correoElectronico;
+    }
+
+    /**
+     * Setters/Getters
+     */
+
+    public Perfil crearPerfil (String biografia, String fotoDePerfil) {
+        Perfil nuevoPerfil = new Perfil(biografia, fotoDePerfil);
+        return nuevoPerfil;
+    }
+
+    public Publicacion hacerPublicacion (String contenido) {
+        Publicacion nuevaPublicacion = new Publicacion (contenido);
+        return nuevaPublicacion;
+    }
+
+    public void hacerComentario (String comentario, Publicacion publicacion) {
+        publicacion.setComentarios(publicacion.getComentarios() += comentario);
+    }
 }
 ```
 
