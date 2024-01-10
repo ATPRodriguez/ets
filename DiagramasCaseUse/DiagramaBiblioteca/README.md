@@ -32,21 +32,25 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 | Nombre  | Nombre del Bibliotecario  | String |
 | Número de empleado| Número de empleado del Bibliotecario | int |
 | Horario Laboral | Horario del Bibliotecario | Calendar |
+|||
+
 |  Actor | Usuario |
-|---|---|---|
-| Descripción  | Usuario que acude a la biblioteca. |
+|---|---|
+| Descripción  | Usuario que acude a la biblioteca |
 | Características  |  |
 | Relaciones | Buscar Libro, Selecciona y Presta Libro, Devuelve Libro, Deja Comentario, Selecciona Categoría. |
 | Referencias | C.U.1, C.U.2, C.U.3, C.U.4, C.U.5 |   
 |  Notas |  |
 | Autor  | Alejandro Tomás Pacheco Rodríguez |
 |Fecha | 20/12/2023 |
+|||
 
 |  Atributos |||
 |---|---|---|
-| Nombre  | Nombre del Usuario  | String |
-| Número de identificación| Número de identificacion del Usuario | int |
-| Historial de Préstamos | Historial de prestamos realizados por el usuario | Préstamos[] |
+| Nombre  | Nombre del Bibliotecario  | String |
+| Número de empleado| Número de empleado del Bibliotecario | int |
+| Horario Laboral | Horario del Bibliotecario | Calendar |
+||||
 
 
 ### Casos de Uso <a name = "casos"></a>
