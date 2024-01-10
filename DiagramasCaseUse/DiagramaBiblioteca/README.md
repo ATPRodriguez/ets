@@ -33,7 +33,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 | Número de empleado| Número de empleado del Bibliotecario | int |
 | Horario Laboral | Horario del Bibliotecario | Calendar |
 |  Actor | Usuario |
-|---|---|
+|---|---|---|
 | Descripción  | Usuario que acude a la biblioteca. |
 | Características  |  |
 | Relaciones | Buscar Libro, Selecciona y Presta Libro, Devuelve Libro, Deja Comentario, Selecciona Categoría. |
@@ -54,18 +54,134 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 <img src = "img/CasosUso.png">
 
 |  Caso de Uso	CU | C.U.1:  Buscar Libro  |
-  |---|---|
-  | Fuentes  |   |
-  | Actor  |  Usuario |
-  | Descripción | _Se realizan diagnósticos del paciente._  |
-  | Flujo básico | 1. _El médico se autentica en el sistema._ 2. _Se realiza el diagnóstico del paciente._|
-  | Pre-condiciones |   |  
-  | Post-condiciones  |   |  
-  |  Requerimientos | _C.U.13: Autenticar._  |
-  |  Notas |   |
+|---|---|
+| Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
+| Actor  |  Usuario |
+| Descripción | |
+| Flujo básico | |
+| Pre-condiciones |   |  
+| Post-condiciones  |   |  
+|  Requerimientos |  |
+|  Notas |   |
 | Autor  | Alejandro Tomás Pacheco Rodríguez |
 |Fecha | 20/12/2023 |
 
+|  Caso de Uso	CU | C.U.2:  Selecciona y Presta Libro  |
+|---|---|
+| Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
+| Actor  |  Usuario |
+| Descripción | |
+| Flujo básico | |
+| Pre-condiciones |   |  
+| Post-condiciones  |   |  
+|  Requerimientos | C.U.11 |
+|  Notas |   |
+| Autor  | Alejandro Tomás Pacheco Rodríguez |
+|Fecha | 20/12/2023 |
+
+|  Caso de Uso	CU | C.U.3:  Devuelve Libro  |
+|---|---|
+| Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
+| Actor  |  Usuario |
+| Descripción | |
+| Flujo básico | |
+| Pre-condiciones |   |  
+| Post-condiciones  |   |  
+|  Requerimientos |  |
+|  Notas |   |
+| Autor  | Alejandro Tomás Pacheco Rodríguez |
+|Fecha | 20/12/2023 |
+
+|  Caso de Uso	CU | C.U.4:  Deja Comentario  |
+|---|---|
+| Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
+| Actor  |  Usuario |
+| Descripción | |
+| Flujo básico | |
+| Pre-condiciones |   |  
+| Post-condiciones  |   |  
+|  Requerimientos |  |
+|  Notas |   |
+| Autor  | Alejandro Tomás Pacheco Rodríguez |
+|Fecha | 20/12/2023 |
+
+|  Caso de Uso	CU | C.U.5:  Selecciona Categoría  |
+|---|---|
+| Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
+| Actor  |  Usuario |
+| Descripción | |
+| Flujo básico | |
+| Pre-condiciones |   |  
+| Post-condiciones  |   |  
+|  Requerimientos |  |
+|  Notas |   |
+| Autor  | Alejandro Tomás Pacheco Rodríguez |
+|Fecha | 20/12/2023 |
+
+|  Caso de Uso	CU | C.U.6:  Registra Nuevo Usuario  |
+|---|---|
+| Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
+| Actor  |  Bibliotecario |
+| Descripción | |
+| Flujo básico | |
+| Pre-condiciones |   |  
+| Post-condiciones  |   |  
+|  Requerimientos |  |
+|  Notas |   |
+| Autor  | Alejandro Tomás Pacheco Rodríguez |
+|Fecha | 20/12/2023 |
+
+|  Caso de Uso	CU | C.U.7:  Agrega Nuevo Libro  |
+|---|---|
+| Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
+| Actor  |  Bibliotecario |
+| Descripción | |
+| Flujo básico | |
+| Pre-condiciones |   |  
+| Post-condiciones  |   |  
+|  Requerimientos |  |
+|  Notas |   |
+| Autor  | Alejandro Tomás Pacheco Rodríguez |
+|Fecha | 20/12/2023 |
+
+|  Caso de Uso	CU | C.U.8:  Realiza Préstamo  |
+|---|---|
+| Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
+| Actor  |  Bibliotecario |
+| Descripción | |
+| Flujo básico | |
+| Pre-condiciones |   |  
+| Post-condiciones  |   |  
+|  Requerimientos |  |
+|  Notas |   |
+| Autor  | Alejandro Tomás Pacheco Rodríguez |
+|Fecha | 20/12/2023 |
+
+|  Caso de Uso	CU | C.U.9:  Procesa Devolución  |
+|---|---|
+| Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
+| Actor  |  Bibliotecario |
+| Descripción | |
+| Flujo básico | |
+| Pre-condiciones |   |  
+| Post-condiciones  |   |  
+|  Requerimientos |  |
+|  Notas |   |
+| Autor  | Alejandro Tomás Pacheco Rodríguez |
+|Fecha | 20/12/2023 |
+
+|  Caso de Uso	CU | C.U.10:  Gestiona Reserva Libros  |
+|---|---|
+| Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
+| Actor  |  Bibliotecario |
+| Descripción | |
+| Flujo básico | |
+| Pre-condiciones |   |  
+| Post-condiciones  |   |  
+|  Requerimientos |  |
+|  Notas |   |
+| Autor  | Alejandro Tomás Pacheco Rodríguez |
+|Fecha | 20/12/2023 |
 
 ### Diagrama <a name = "diagramaCaseUse"></a>
 
