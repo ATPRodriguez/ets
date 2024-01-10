@@ -17,23 +17,6 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 
 <img src = "img/Actores.png">
 
-|  Actor | Bibliotecario |
-|---|---|
-| Descripción  | Trabajador de la biblioteca. |
-| Características  |  |
-| Relaciones | Registra Nuevo Usuario, Agrega Nuevo Libro, Realiza Préstamo, Procesa Devolución, Gestiona Reserva Libros. |
-| Referencias | C.U.6, C.U.7, C.U.8, C.U.9, C.U.10 |   
-|  Notas |  |
-| Autor  | Alejandro Tomás Pacheco Rodríguez |
-|Fecha | 20/12/2023 |
-
-|  Atributos |||
-|---|---|---|
-| Nombre  | Nombre del Bibliotecario  | String |
-| Número de empleado| Número de empleado del Bibliotecario | int |
-| Horario Laboral | Horario del Bibliotecario | Calendar |
-|||
-
 |  Actor | Usuario |
 |---|---|
 | Descripción  | Usuario que acude a la biblioteca |
@@ -52,6 +35,23 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 | Horario Laboral | Horario del Bibliotecario | Calendar |
 ||||
 
+|  Actor | Bibliotecario |
+|---|---|
+| Descripción  | Trabajador de la biblioteca. |
+| Características  |  |
+| Relaciones | Registra Nuevo Usuario, Agrega Nuevo Libro, Realiza Préstamo, Procesa Devolución, Gestiona Reserva Libros. |
+| Referencias | C.U.6, C.U.7, C.U.8, C.U.9, C.U.10 |   
+|  Notas |  |
+| Autor  | Alejandro Tomás Pacheco Rodríguez |
+|Fecha | 20/12/2023 |
+
+|  Atributos |||
+|---|---|---|
+| Nombre  | Nombre del Bibliotecario  | String |
+| Número de empleado| Número de empleado del Bibliotecario | int |
+| Horario Laboral | Horario del Bibliotecario | Calendar |
+|||
+
 
 ### Casos de Uso <a name = "casos"></a>
 
@@ -61,7 +61,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Usuario |
-| Descripción | |
+| Descripción | Usuario busca libro|
 | Flujo básico | |
 | Pre-condiciones |   |  
 | Post-condiciones  |   |  
@@ -74,7 +74,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Usuario |
-| Descripción | |
+| Descripción | Usuario selecciona y presta un libro |
 | Flujo básico | |
 | Pre-condiciones |   |  
 | Post-condiciones  |   |  
@@ -87,7 +87,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Usuario |
-| Descripción | |
+| Descripción | Usuario devuelve el libro |
 | Flujo básico | |
 | Pre-condiciones |   |  
 | Post-condiciones  |   |  
@@ -100,7 +100,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Usuario |
-| Descripción | |
+| Descripción | Usuario deja un comentario del libro |
 | Flujo básico | |
 | Pre-condiciones |   |  
 | Post-condiciones  |   |  
@@ -113,7 +113,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Usuario |
-| Descripción | |
+| Descripción | Usuario selecciona categorias de libro |
 | Flujo básico | |
 | Pre-condiciones |   |  
 | Post-condiciones  |   |  
@@ -126,7 +126,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Bibliotecario |
-| Descripción | |
+| Descripción | Bibliotecario registra un nuevo usuario |
 | Flujo básico | |
 | Pre-condiciones |   |  
 | Post-condiciones  |   |  
@@ -139,7 +139,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Bibliotecario |
-| Descripción | |
+| Descripción | Bibliotecario agrega un nuevo libro |
 | Flujo básico | |
 | Pre-condiciones |   |  
 | Post-condiciones  |   |  
@@ -152,7 +152,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Bibliotecario |
-| Descripción | |
+| Descripción | Bibliotecario realiza un prestamo |
 | Flujo básico | |
 | Pre-condiciones |   |  
 | Post-condiciones  |   |  
@@ -165,7 +165,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Bibliotecario |
-| Descripción | |
+| Descripción | Bibliotecario procesa devolucion |
 | Flujo básico | |
 | Pre-condiciones |   |  
 | Post-condiciones  |   |  
@@ -178,7 +178,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Bibliotecario |
-| Descripción | |
+| Descripción | Bibliotecario gestiona una reserva de libros |
 | Flujo básico | |
 | Pre-condiciones |   |  
 | Post-condiciones  |   |  
