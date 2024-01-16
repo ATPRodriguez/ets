@@ -193,6 +193,6 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 
 ## Diagrama de Clases <a name = "clases"></a>
 
-
+<img src = img/Diagrama-Clases.png></a>
 
 </div>
