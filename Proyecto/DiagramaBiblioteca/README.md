@@ -57,7 +57,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 
 <img src = "img/CasosUso.png">
 
-|  Caso de Uso	CU | C.U.1:  Buscar Libro  |
+|  Caso de Uso | C.U.1:  Buscar Libro  |
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Usuario |
@@ -70,7 +70,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 | Autor  | Alejandro Tomás Pacheco Rodríguez |
 |Fecha | 20/12/2023 |
 
-|  Caso de Uso	CU | C.U.2:  Selecciona y Presta Libro  |
+|  Caso de Uso | C.U.2:  Selecciona y Presta Libro  |
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Usuario |
@@ -83,7 +83,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 | Autor  | Alejandro Tomás Pacheco Rodríguez |
 |Fecha | 20/12/2023 |
 
-|  Caso de Uso	CU | C.U.3:  Devuelve Libro  |
+|  Caso de Uso | C.U.3:  Devuelve Libro  |
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Usuario |
@@ -96,7 +96,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 | Autor  | Alejandro Tomás Pacheco Rodríguez |
 |Fecha | 20/12/2023 |
 
-|  Caso de Uso	CU | C.U.4:  Deja Comentario  |
+|  Caso de Uso | C.U.4:  Deja Comentario  |
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Usuario |
@@ -109,7 +109,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 | Autor  | Alejandro Tomás Pacheco Rodríguez |
 |Fecha | 20/12/2023 |
 
-|  Caso de Uso	CU | C.U.5:  Selecciona Categoría  |
+|  Caso de Uso | C.U.5:  Selecciona Categoría  |
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Usuario |
@@ -122,7 +122,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 | Autor  | Alejandro Tomás Pacheco Rodríguez |
 |Fecha | 20/12/2023 |
 
-|  Caso de Uso	CU | C.U.6:  Registra Nuevo Usuario  |
+|  Caso de Uso | C.U.6:  Registra Nuevo Usuario  |
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Bibliotecario |
@@ -135,7 +135,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 | Autor  | Alejandro Tomás Pacheco Rodríguez |
 |Fecha | 20/12/2023 |
 
-|  Caso de Uso	CU | C.U.7:  Agrega Nuevo Libro  |
+|  Caso de Uso | C.U.7:  Agrega Nuevo Libro  |
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Bibliotecario |
@@ -148,7 +148,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 | Autor  | Alejandro Tomás Pacheco Rodríguez |
 |Fecha | 20/12/2023 |
 
-|  Caso de Uso	CU | C.U.8:  Realiza Préstamo  |
+|  Caso de Uso | C.U.8:  Realiza Préstamo  |
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Bibliotecario |
@@ -161,7 +161,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 | Autor  | Alejandro Tomás Pacheco Rodríguez |
 |Fecha | 20/12/2023 |
 
-|  Caso de Uso	CU | C.U.9:  Procesa Devolución  |
+|  Caso de Uso | C.U.9:  Procesa Devolución  |
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Bibliotecario |
@@ -174,7 +174,7 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 | Autor  | Alejandro Tomás Pacheco Rodríguez |
 |Fecha | 20/12/2023 |
 
-|  Caso de Uso	CU | C.U.10:  Gestiona Reserva Libros  |
+|  Caso de Uso | C.U.10:  Gestiona Reserva Libros  |
 |---|---|
 | Fuentes  | https://github.com/jpexposito/docencia/tree/master/Primero/ETS/PROYECTO |
 | Actor  |  Bibliotecario |
@@ -193,6 +193,6 @@ Desarrolla un sistema de llamado Gestión de Biblioteca que permita a los biblio
 
 ## Diagrama de Clases <a name = "clases"></a>
 
-<img src = img/Diagrama-Clases.png></a>
+<img src = img/Diagrama-Clases.png>
 
 </div>
