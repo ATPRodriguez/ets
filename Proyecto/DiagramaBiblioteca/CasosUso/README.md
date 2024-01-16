@@ -1,6 +1,46 @@
 <div align = "justify">
 
-# Casos de Uso
+# Actores
+
+<img src = "../img/Actores.png">
+
+|  Actor | Usuario |
+|---|---|
+| Descripción  | Usuario que acude a la biblioteca |
+| Características  |  |
+| Relaciones | Buscar Libro, Selecciona y Presta Libro, Devuelve Libro, Deja Comentario, Selecciona Categoría. |
+| Referencias | C.U.1, C.U.2, C.U.3, C.U.4, C.U.5 |   
+|  Notas |  |
+| Autor  | Alejandro Tomás Pacheco Rodríguez |
+|Fecha | 20/12/2023 |
+|||
+
+|  Atributos |||
+|---|---|---|
+| Nombre  | Nombre del Bibliotecario  | String |
+| Número de empleado| Número de empleado del Bibliotecario | int |
+| Horario Laboral | Horario del Bibliotecario | Calendar |
+||||
+
+|  Actor | Bibliotecario |
+|---|---|
+| Descripción  | Trabajador de la biblioteca. |
+| Características  |  |
+| Relaciones | Registra Nuevo Usuario, Agrega Nuevo Libro, Realiza Préstamo, Procesa Devolución, Gestiona Reserva Libros. |
+| Referencias | C.U.6, C.U.7, C.U.8, C.U.9, C.U.10 |   
+|  Notas |  |
+| Autor  | Alejandro Tomás Pacheco Rodríguez |
+|Fecha | 20/12/2023 |
+
+|  Atributos |||
+|---|---|---|
+| Nombre  | Nombre del Bibliotecario  | String |
+| Número de empleado| Número de empleado del Bibliotecario | int |
+| Horario Laboral | Horario del Bibliotecario | Calendar |
+|||
+
+
+## Casos de Uso
 
 <img src = "../img/CasosUso.png">
 
